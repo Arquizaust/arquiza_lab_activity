@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EFEEEE;
+    color: #333;
+}
+
+header {
+    background-color: #F26627;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #98D7D1;
+}
+
+th {
+    background-color: #325D79;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+td {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.edit-btn, .delete-btn {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    background-color: #F26627;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    background-color: #D6491E;
+}
+
+#status-filter {
+    padding: 0.5rem;
+    border: 1px solid #98D7D1;
+    border-radius: 4px;
+    width: 45%;
+    background-color: #fff; 
+    color: #333; 
+    appearance: none; 
+    -webkit-appearance: none; 
+    background-repeat: no-repeat;
+    background-position: right center;
+    cursor: pointer;
+}
+
+.add-product-btn {
+    padding: 0.5rem 1rem;
+    background-color: #F26627;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add-product-btn:hover {
+    background-color: #D6491E;
+}
